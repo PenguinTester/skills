@@ -49,7 +49,7 @@ Each skill lives in its own directory:
 | Skill | Description |
 |-------|-------------|
 | [`code-review`](./skills/code-review/) | Review code changes (diffs, PRs, patches) with structured, actionable feedback on correctness, maintainability, and test coverage |
-| [`security-review`](./skills/security-review/) | Security-focused review that scans for CVEs/advisories, assesses dependency vulnerabilities, and performs code-level security analysis |
+| [`security-review`](./skills/security-review/) | STRIDE-based security analysis that scans code for vulnerabilities, validates exploitability, and outputs structured findings for patch generation. Supports PR review, scheduled scans, and full repo audits |
 
 ## Creating a Basic Skill
 
